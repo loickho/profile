@@ -1,0 +1,95 @@
+body {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: black;
+}
+
+/*.fa-beat {
+  display: none;
+}
+.link-linkedin:hover .fa-beat {
+  display: block;
+}
+.link-linkedin:hover .original{
+  display: none;
+}*/
+
+.socials:hover {
+  font-size: 1.5em;
+  /*transition: .3s ease-out;*/
+}
+
+.socials {
+  line-height: 1.6em;
+  margin: 0 auto;
+  color: purple;
+  text-decoration: none;
+  transition: .8s;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(139, 142, 201, .5);
+  box-shadow: 2px 3px 8px black;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#top {
+  margin-bottom: 22px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  /*background-image: url(images/irregular-wavy-lines-in-pastel-colors-Graphics-8468253-1.jpg);
+  background-size: 100% auto;*/
+}
+
+#bottom {
+  margin: 0 auto;
+  padding: 10;
+  padding: 5px 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    width: 400px;
+  }
+}
